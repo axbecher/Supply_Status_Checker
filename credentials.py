@@ -1,5 +1,5 @@
 # User email: 
-email_user = 'not yet'
+email_user = 'check exist'
 # User password: 
 email_password = ''
 # Server for Office, details -> https://domar.com/pages/smtp_pop3_server 
