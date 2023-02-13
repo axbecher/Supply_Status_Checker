@@ -1,22 +1,22 @@
 ## Table of Contents
 
-1. [Product Availability Check](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#product-availability-checker)
-2. [Terms used in the table](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#terms-used-in-the-table)
+1. [Product Availability Check](https://github.com/axbecher/Supply_Status_Checker#product-availability-checker)
+2. [Terms used in the table](https://github.com/axbecher/Supply_Status_Checker#terms-used-in-the-table)
    - Availability
    - Product name
    - URL
    - Timestamp
-3. [How does it work](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#how-does-it-work)
+3. [How does it work](https://github.com/axbecher/Supply_Status_Checker#how-does-it-work)
    - Connection to server
    - Accessing URLs
    - Emailing results
-4. [For the program to work correctly](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#for-the-program-to-work-correctly)
-5. [Requirements](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#requirements)
-6. [Configuration](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#configuration)
-7. [Usage](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#usage)
-8. [How does it work?](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#how-does-it-work-1)
-9. [Support](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#support)
-10. [License](https://github.com/axbecher/Automation-scripts/tree/main/WebScrapingProductInStock#license)
+4. [For the program to work correctly](https://github.com/axbecher/Supply_Status_Checker#for-the-program-to-work-correctly)
+5. [Requirements](https://github.com/axbecher/Supply_Status_Checker#requirements)
+6. [Configuration](https://github.com/axbecher/Supply_Status_Checker#configuration)
+7. [Usage](https://github.com/axbecher/Supply_Status_Checker#usage)
+8. [How does it work?](https://github.com/axbecher/Supply_Status_Checker#how-does-it-work-1)
+9. [Support](https://github.com/axbecher/Supply_Status_Checker#support)
+10. [License](https://github.com/axbecher/Supply_Status_Checker#license)
 
 # Product Availability Checker
 A python script for web scraping to check if a product exists on a website and create a HTML table with 4 columns: Availability, Product Name, URL, and Timestamp.
