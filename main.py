@@ -8,11 +8,23 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
+def modify_urls():
+    with open("urls.txt", 'r') as f:
+        content = f.read()
+        content = content.replace('\n\n', '\n')
+    with open("urls.txt", 'w') as f:
+        f.write(content)
 
 def get_page_html(url):
+    if not url:
+        return None
+    if not url.startswith("http://") and not url.startswith("https://"):
+        url = "http://" + url
     headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"}
-    page = requests.get(url, headers=headers)
-    #print(page.status_code)
+    try:
+        page = requests.get(url, headers=headers)
+    except requests.exceptions.MissingSchema:
+        return None
     return page.content
 
 def check_item_in_stock(page_html):
@@ -22,12 +34,13 @@ def check_item_in_stock(page_html):
     return len(out_of_stock_divs) != 0
 
 def check_inventoryBothExists():
+    modify_urls()
     with open("urls.txt", "r") as file:
         urls = file.readlines()
         entries = []
         for url in urls:
             url = url.strip()
-            product_name = "Test"
+            product_name = url.split('/')[-4]
             page_html = get_page_html(url)
             current_timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
             if check_item_in_stock(page_html):
