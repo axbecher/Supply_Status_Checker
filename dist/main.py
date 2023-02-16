@@ -40,7 +40,7 @@ def check_inventoryBothExists():
         entries = []
         for url in urls:
             url = url.strip()
-            product_name = "Test"
+            product_name = url.split('/')[-4]
             page_html = get_page_html(url)
             current_timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
             if check_item_in_stock(page_html):
@@ -61,11 +61,39 @@ def check_inventoryBothExists():
 
 
 def send_email(df):
+    from cryptography.fernet import Fernet
     import credentials
-    # Define email details
+    import os
+    import base64
+    import re
+
+    # Load the key from the file
+    with open('key.key', 'rb') as f:
+        key = f.read()
+
+    # Create a Fernet object using the key
+    fernet = Fernet(key)
+
+    # Use the fernet object for encryption and decryption
+
     email_user = credentials.email_user
     email_password = credentials.email_password
+    option_selected = credentials.server
     to = credentials.to
+
+    with open('credentials.py', 'r') as f:
+        contents = f.read()
+
+    # Check for lines that contain encrypted strings
+    encrypted_lines = re.findall(r"gAAAAA.*?'", contents)
+
+    if encrypted_lines:
+        print("Credentials file contains encrypted strings.")
+        email_user = fernet.decrypt(credentials.email_user).decode()
+        email_password = fernet.decrypt(credentials.email_password).decode() 
+        option_selected = option_selected
+        to = fernet.decrypt(credentials.to).decode()
+
     subject = 'Inventory Report'
 
     msg = MIMEMultipart()

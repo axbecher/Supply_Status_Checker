@@ -1,4 +1,4 @@
-urls withgout new lines
+Urls without new lines
 example: 
 
 https://www.google.ro/
