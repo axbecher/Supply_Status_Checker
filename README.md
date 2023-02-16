@@ -13,6 +13,7 @@
 4. [For the program to work correctly](https://github.com/axbecher/Supply_Status_Checker#for-the-program-to-work-correctly)
 5. [Requirements](https://github.com/axbecher/Supply_Status_Checker#requirements)
 6. [Configuration](https://github.com/axbecher/Supply_Status_Checker#configuration)
+7. [Contributors](https://github.com/axbecher/Supply_Status_Checker#contributors)
 7. [Usage](https://github.com/axbecher/Supply_Status_Checker#usage)
 8. [How does it work?](https://github.com/axbecher/Supply_Status_Checker#how-does-it-work-1)
 9. [Support](https://github.com/axbecher/Supply_Status_Checker#support)
@@ -58,6 +59,21 @@ The script requires user to add email credentials in credentials.py file.
 - password
 - recipient email
 - server preference
+
+# Contributors ✨
+
+Thanks go to these wonderful people:
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://axbecher.com"><img src="https://avatars.githubusercontent.com/u/72851811?v=4" width="100px;" alt="Alexandru Becher"/><br /><sub><b>Alexandru Becher</b></sub></a><br />
+      </td>
+      <td align="center"><a href="https://hurr13ane.com"><img src="https://avatars.githubusercontent.com/u/76591840?v=4" width="100px;" alt="Jeroen Engels"/><br /><sub><b>Diana-Maria Iercosan</b></sub></a><br />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Usage
 To run the script, use the following command in your terminal:
