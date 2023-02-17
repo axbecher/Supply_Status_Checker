@@ -1,6 +1,7 @@
 ## Table of Contents
 
 1. [Product Availability Check](https://github.com/axbecher/Supply_Status_Checker#product-availability-checker)
+2. [Story 1 - Two Keyboards]()
 2. [Terms used in the table](https://github.com/axbecher/Supply_Status_Checker#terms-used-in-the-table)
    - Availability
    - Product name
@@ -20,7 +21,15 @@
 11. [License](https://github.com/axbecher/Supply_Status_Checker#license)
 
 # Product Availability Checker
+
 A python script for web scraping to check if a product exists on a website and create a HTML table with 4 columns: Availability, Product Name, URL, and Timestamp.
+
+# Story 1 - Two Keyboards
+I want to purchase a new keyboard and I have to choose between 2 models, but one of them is out of stock. Instead of manually checking whether the product is in stock or not, I can use the **Supply_Status_Checker** program. 
+
+See in the attached video how I did it, step by step.
+
+[![Two Keyboards - Supply Status Checker](https://img.youtube.com/vi/Ag0ENIJMYIQ/0.jpg)](https://www.youtube.com/watch?v=Ag0ENIJMYIQ)
 
 # Terms used in the table:
 - **Availability:** If the product from the urls.txt is in stock or not;
