@@ -29,7 +29,7 @@ I want to purchase a new keyboard and I have to choose between 2 models, but one
 
 See in the attached video how I did it, step by step.
 
-[![Two Keyboards - Supply Status Checker](https://img.youtube.com/vi/Ag0ENIJMYIQ/0.jpg)](https://www.youtube.com/watch?v=Ag0ENIJMYIQ)
+[![ENG - Two Keyboards - Supply Status Checker](https://img.youtube.com/vi/2lHqitOd8xc/0.jpg)](https://www.youtube.com/watch?v=2lHqitOd8xc)
 
 # Terms used in the table:
 - **Availability:** If the product from the urls.txt is in stock or not;
