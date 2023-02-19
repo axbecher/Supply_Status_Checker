@@ -1,24 +1,24 @@
 ## Table of Contents
 
-1. [Product Availability Check](https://github.com/axbecher/Supply_Status_Checker#product-availability-checker)
-2. [Story 1 - Two Keyboards](https://github.com/axbecher/Supply_Status_Checker#story-1---two-keyboards)
-2. [Terms used in the table](https://github.com/axbecher/Supply_Status_Checker#terms-used-in-the-table)
+1. [Product Availability Check](#product-availability-checker)
+2. [Story 1 - Two Keyboards](#story-1---two-keyboards)
+2. [Terms used in the table](#terms-used-in-the-table)
    - Availability
    - Product name
    - URL
    - Timestamp
-3. [How does it work](https://github.com/axbecher/Supply_Status_Checker#how-does-it-work)
+3. [How does it work](#how-does-it-work)
    - Connection to server
    - Accessing URLs
    - Emailing results
-4. [For the program to work correctly](https://github.com/axbecher/Supply_Status_Checker#for-the-program-to-work-correctly)
-5. [Requirements](https://github.com/axbecher/Supply_Status_Checker#requirements)
-6. [Configuration](https://github.com/axbecher/Supply_Status_Checker#configuration)
-7. [Contributors](https://github.com/axbecher/Supply_Status_Checker#contributors-)
-8. [Usage](https://github.com/axbecher/Supply_Status_Checker#usage)
-9. [How does it work?](https://github.com/axbecher/Supply_Status_Checker#how-does-it-work-1)
-10. [Support](https://github.com/axbecher/Supply_Status_Checker#support)
-11. [License](https://github.com/axbecher/Supply_Status_Checker#license)
+4. [For the program to work correctly](#for-the-program-to-work-correctly)
+5. [Requirements](#requirements)
+6. [Configuration](#configuration)
+7. [Contributors](#contributors-)
+8. [Usage](#usage)
+9. [How does it work?](#how-does-it-work-1)
+10. [Support](#support)
+11. [License](#license)
 
 # Product Availability Checker
 
